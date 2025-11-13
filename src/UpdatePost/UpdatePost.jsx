@@ -46,7 +46,7 @@ export default function UpdatePost({ id }) {
           onClick={() => isShow(true)}
           data-modal-target="authentication-modal"
           data-modal-toggle="authentication-modal"
-          className="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="bg-blue-700 w-[48%] p-2 text-white rounded-xl font-bold me-7 cursor-pointer hover:to-blue-700 hover:shadow-lg hover:scale-105 transition-all duration-300"
           type="button"
         >
           Update post

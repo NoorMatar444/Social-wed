@@ -36,12 +36,12 @@ export default function GetUserPosts({ id }) {
               </div>
 
               {/* <GetUserComments postId={post._id} /> */}
-              <div className="post flex justify-around">
+              <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
                 <DeletePost id={post._id} />
                 <UpdatePost id={post._id} />
               </div>
             </div>
-            <div className="middle flex justify-center mb-7 pb-7">
+            <div className="middle flex justify-center mb-7 pb-7 mt-5">
               <CreatComment postId={post._id} />
             </div>
             {post.comments?.map((comment) => (

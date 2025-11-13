@@ -35,7 +35,7 @@ function handleDeleteComment() {
       ) : (
         <button
           onClick={handleDeleteComment}
-          className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium text-white rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 shadow-md transition-all duration-300 hover:from-indigo-500 hover:to-blue-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-300"
+          className="bg-blue-700 w-[48%] p-2 text-white rounded-xl font-bold ms-24 cursor-pointer hover:to-blue-700 hover:shadow-lg hover:scale-105 transition-all duration-300"
         >
           Delete comment
         </button>

@@ -41,7 +41,7 @@ export default function ChangePassword() {
           onClick={() => SetisShow(true)}
           data-modal-target="authentication-modal"
           data-modal-toggle="authentication-modal"
-          className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium text-white rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 shadow-md transition-all duration-300 hover:from-indigo-500 hover:to-blue-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-300"
+          className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium text-white rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 shadow-md transition-all duration-300 hover:from-indigo-500 hover:to-blue-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-300 lg:text-sm"
           type="button"
         >
           Change password

@@ -32,7 +32,7 @@ export default function DeletePost({ id }) {
         <button
           onClick={() => deletePost(id)}
           disabled={Spinner}
-          className="bg-red-600 text-white p-3 rounded-3xl cursor-pointer"
+          className="bg-red-700 w-[48%] p-2 text-white rounded-xl font-bold ms-24 cursor-pointer hover:to-blue-700 hover:shadow-lg hover:scale-105 transition-all duration-300"
         >
           Delete post
         </button>

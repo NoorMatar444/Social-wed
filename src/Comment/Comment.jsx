@@ -15,7 +15,7 @@ export default function Comment({ comment }) {
         {comment?.content}
       </p>
 
-      <div className="flex gap-3 justify-between">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
         <UpdateComment id={comment._id} />
         <DeleteComment id={comment._id} />
       </div>

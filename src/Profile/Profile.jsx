@@ -41,7 +41,7 @@ export default function Profile() {
           <p>Email:{data.email}</p>
           <p>Gender:{data.gender}</p>
         </div>
-        <div className="photo flex justify-center">
+        <div className="photo grid grid-cols-1 sm:grid-cols-2">
           <div className="one w-full p-3">
             <UploadPhoto />
           </div>
